@@ -1,0 +1,126 @@
+.bodydiv{
+    display:grid;
+    grid-template-columns: 70px 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 65px;
+    grid-gap:14px;
+    z-index: -1;
+    background-color: rgb(250, 255, 255);
+       }
+  @media (max-width:750px){
+    .bodydiv{
+      grid-template-columns: 70px 1fr 1fr;
+    }
+  }
+    @media(max-width:751px ;) and (min-width: 999px;){
+      .bodydiv{
+        grid-template-columns: 70px 1fr 1fr 1fr;
+      }
+    }
+     
+  @media (min-width:1000px){
+    .bodydiv{
+      grid-template-columns: 70px 1fr 1fr 1fr ;
+    }
+  }
+
+
+.bodydiv1{
+
+ grid-row: 1/5; 
+ height: 500px;
+ 
+}
+    
+.bodydiv2{
+  padding-top: 30px;
+    height: 350px;
+}
+.videoimg1{
+    width: auto;
+    height: 250px;
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+   
+}
+.timing{
+  position: absolute;
+  right: 8px;
+  bottom: 5px;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+}
+    .videoinfo1{
+        width: auto;
+        height: 100px;
+    
+    }
+.bodydiv3{
+    height: 350px;
+    padding-top: 30px;
+   }
+.bodydiv4{
+      padding-top: 30px;
+       height: 350px;
+   }
+.bodydiv5{
+  padding-top: 30px;
+    height: 350px;
+   }
+.bodydiv6{
+  padding-top: 30px;
+       height: 350px;
+   }
+.bodydiv7{
+    height: 350px; 
+    padding-top: 30px;
+   }
+   .img1, .img2, .img3, .img4, .img5, .img6{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+   } 
+  .pinfo{
+    width: 330px;
+    height: 99px;
+    vertical-align: top;
+    margin-right: 0px;
+    display: inline-table;
+
+  }
+  .chenalimg{
+    width: 65px;
+    height: 99px;
+      display: inline-block;
+  }
+  .profileimg{
+    width: 40px;
+    margin-top: 15px;
+    margin-left: 14px;
+    border-radius: 50px;
+    display: inline-block;
+  }
+  .p1{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 5px;
+    margin-top: 15px;
+  }
+  .p2{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgba(78, 73, 73, 0.808);
+    margin-left: 5px;
+    margin-bottom: 0px;
+  }
+  .p3{
+    font-size:12px;
+    font-family: sans-serif;
+    color: rgba(78, 73, 73, 0.808);
+    margin-left: 5px;
+    margin-top: 0;
+  }
+ 

@@ -1,0 +1,33 @@
+.menubare{
+    display: flex;
+    height: 550px;
+    width: 70px;
+    position: fixed;
+   flex-direction: column;
+   background-color: white;
+   margin-top: 0;
+   z-index: 200;
+   }
+
+.sidebare{
+    height: 74px;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ 
+   
+}
+.sidebare:hover{
+    background-color: rgb(219, 216, 216);
+}
+.sidebare img{
+    height: 25px;
+    margin-bottom: 5px;
+    }
+.sidebare div{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
